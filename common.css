@@ -9,10 +9,10 @@ nav {
     position: fixed;
     max-width: 20vw;
     line-height: 1.5rem;
-    background-color: hsl(90, 35%, 90%);
+    background-color: hsl(140,25%,90%);
     height: 100vh;
     border-radius: 2%;
-    box-shadow: 2px 1px 1px hsl(90, 100%, 20%);
+    box-shadow: 2px 1px 1px hsl(140,25%,30%);
     padding: 0.5rem;
 }
 
@@ -21,7 +21,7 @@ main {
     left: 21vw;
     max-width: 70vw;
     line-height: 2.5rem;
-    padding: 5vw;
+    padding: 1em 5vw;
 }
 
 p {

@@ -1,0 +1,39 @@
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: hsl(180, 35%, 90%);
+}
+
+nav {
+    float: left;
+    position: fixed;
+    max-width: 20vw;
+    line-height: 1.5rem;
+    background-color: hsl(90, 35%, 90%);
+    height: 100vh;
+    border-radius: 2%;
+    box-shadow: 2px 1px 1px hsl(90, 100%, 20%);
+    padding: 0.5rem;
+}
+
+main {
+    position: relative;
+    left: 21vw;
+    max-width: 73vw;
+    line-height: 1.9rem;
+    padding: 2rem;
+}
+
+p {
+    letter-spacing: 0.025em;
+    font-size: 1.15em;
+}
+
+a {
+    color: hsl(300, 70%, 20%);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

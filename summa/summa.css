@@ -1,0 +1,8 @@
+span {
+    color: hsl(300, 70%, 20%);
+    text-decoration: none;
+}
+
+span:hover {
+    text-decoration: underline;
+}

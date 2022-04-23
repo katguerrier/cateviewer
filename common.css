@@ -20,13 +20,14 @@ main {
     position: relative;
     left: 21vw;
     max-width: 73vw;
-    line-height: 1.9rem;
-    padding: 2rem;
+    line-height: 2.5rem;
+    padding: 5vw;
 }
 
 p {
-    letter-spacing: 0.025em;
-    font-size: 1.15em;
+    font-size: 1.15rem;
+    letter-spacing: 0.05em;
+    word-spacing: 0.015em;
 }
 
 a {

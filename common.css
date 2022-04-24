@@ -2,6 +2,8 @@ body {
     font-size: 16px;
     font-family: sans-serif;
     background-color: hsl(180, 35%, 90%);
+    padding: 0;
+    margin: 0;
 }
 
 nav {
@@ -11,7 +13,6 @@ nav {
     line-height: 1.5rem;
     background-color: hsl(140,25%,90%);
     height: 100vh;
-    border-radius: 2%;
     box-shadow: 2px 1px 1px hsl(140,25%,30%);
     padding: 0.5rem;
     overflow: scroll;
@@ -37,5 +38,15 @@ a {
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.part_item {
     text-decoration: underline;
 }
